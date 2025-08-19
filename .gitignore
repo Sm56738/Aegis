@@ -1,9 +1,25 @@
-# Python
+# Python cache files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Node/React
-node_modules/
+# Environment / virtualenv
+venv/
+env/
+*.env
 
-# Environment variables
-.env
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Flask instance folder (if you use one)
+instance/
+
+# Pytest / coverage
+.coverage
+htmlcov/
